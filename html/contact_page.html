@@ -96,13 +96,13 @@
           inval_email.style.display = "none";
           return false;
         } else {
-          alert("Your message has been sent.");
-          document.getElementById("contact_form").reset();
-          no_message.style.display = "none";
+	  no_message.style.display = "none";
           no_email.style.display = "none";
           no_lname.style.display = "none";
           no_fname.style.display = "none";
           inval_email.style.display = "none";
+          alert("Your message has been sent.");
+          document.getElementById("contact_form").reset();
         }
       }
     </script>
