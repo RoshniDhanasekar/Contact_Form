@@ -7,46 +7,46 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="theme.css" type="text/css">
   <style> #fname {
-    border-radius: 20px;
+    	border-radius: 20px;
   	padding: 20px;
     }
     #email {
-    border-radius: 20px;
+    	border-radius: 20px;
   	padding: 20px;
     }
     #lname {
-    border-radius: 20px;
+    	border-radius: 20px;
   	padding: 20px;
     }
     #message {
-    border-radius: 20px;
+    	border-radius: 20px;
   	padding: 20px;
     }
     #send {
-    border-radius: 20px;
-    border: none;
+    	border-radius: 20px;
+    	border: none;
   	padding: 7px;
-    width: 30%;
-    margin: 0 auto;
+    	width: 30%;
+    	margin: 0 auto;
     }
     #outline{
-    border-radius: 30px;
+    	border-radius: 30px;
   	padding: 40px;
     }
     #missing_fname {
-      display: none;
+      	display: none;
     }
     #missing_lname {
-      display: none;
+      	display: none;
     }
   #missing_email {
-      display: none;
+      	display: none;
     }
   #missing_message {
-      display: none;
+      	display: none;
     }
   #invalid_email {
-      display: none;
+      	display: none;
     }
   </style>
   <script> function validateEmail(email) {
@@ -96,7 +96,7 @@
           inval_email.style.display = "none";
           return false;
         } else {
-        	alert("Your message has been sent.");
+          alert("Your message has been sent.");
           document.getElementById("contact_form").reset();
           no_message.style.display = "none";
           no_email.style.display = "none";
